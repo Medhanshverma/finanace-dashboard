@@ -31,13 +31,4 @@ export const {
   useGetTransactionsQuery,
 } = api;
 
-// Explicitly type the hooks
-type UseGetKpisQuery = typeof useGetKpisQuery;
-type UseGetProductsQuery = typeof useGetProductsQuery;
-type UseGetTransactionsQuery = typeof useGetTransactionsQuery;
 
-export {
-  useGetKpisQuery as useGetKpisQueryTyped,
-  useGetProductsQuery as useGetProductsQueryTyped,
-  useGetTransactionsQuery as useGetTransactionsQueryTyped,
-};
